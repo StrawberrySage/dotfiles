@@ -16,4 +16,4 @@ alias config-alacritty="nvim $HOME/.config/alacritty/alacritty.toml"
 
 # Prompt (ZSH)
 autoload colors && colors
-PS1="%{$fg[red]%}█%{$reset_color%}%{$bg[red]%}%{$fg[black]%}  %n@%M %{$reset_color%}%{$bg[blue]%}%{$fg[red]%}%{$reset_color%}%{$bg[blue]%}%{$fg[black]%}   %~ %{$reset_color%}%{$fg[blue]%}%{$reset_color%}"$'\n'"%{$fg[green]%}█%{$reset_color%}%{$bg[green]%}%{$fg[black]%}  $SHELL %{$reset_color%}%{$fg[green]%}%{$reset_color%} "
+PS1="%{$bg[red]%} %{$fg[black]%}  %n@%M %{$reset_color%}%{$bg[blue]%}%{$fg[red]%}%{$reset_color%}%{$bg[blue]%}%{$fg[black]%}   %~ %{$reset_color%}%{$fg[blue]%}%{$reset_color%}"$'\n'"%{$bg[green]%} %{$fg[black]%}  $SHELL %{$reset_color%}%{$fg[green]%}%{$reset_color%} "
