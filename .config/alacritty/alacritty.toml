@@ -1,0 +1,13 @@
+#shell = "/bin/zsh"
+
+[window]
+opacity = 0.9
+
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+]
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
